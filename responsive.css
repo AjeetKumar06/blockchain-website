@@ -1,0 +1,97 @@
+@media (max-width: 1200px) { 
+    .header { width: 94%;}
+
+    .header .logo { width: 410px; }
+    .header .logo img { width: 400px; height: 110px; } 
+    .head-section .container .head-right img { 
+      height: 350px;
+    } 
+  }
+ 
+  @media (max-width: 992px) { 
+    .header { width: 96%; }
+
+    .header .logo img { width: 340px; height: 100px; }  
+    .header #menu-btn {
+      display: inline-block;
+    }
+
+    .header .navbar {
+      position: fixed;
+      top: 0;
+      right: -105%;
+      width: 30rem;
+      background: #fff;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+      flex-flow: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+      justify-content: center;
+      z-index: 1200;
+    }
+    .header .navbar #close-navbar {
+      display: block;
+    }
+    .header .navbar.active {
+      -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+              box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+      right: 0;
+    }
+    .header .navbar ul {
+      display: block;
+      margin: 1rem 0;
+      text-align: center;
+      font-size: 3rem;
+    }
+     
+    .header .icons {display: flex; flex-direction: row; width: 100px;  }
+
+    .head-section .container .head-right img { 
+      height: 300px;
+    }
+    .movie-box {
+      overflow: scroll hidden; 
+      width: calc(100vw - 60px);
+      padding: 10px 10px; }
+
+  }
+
+
+@media (max-width: 768px) {
+  html { font-size: 7px;}
+
+  .header .logo { width: 360px; }
+  .header .logo img { width: 360px; height: 80px;}
+
+    .contact { padding: 50px;}
+    .head-section .container .head-right img {  height: 230px; }
+    .head-section { height: 500px; }
+  }
+ 
+  @media (max-width: 576px) { 
+    .header .logo { width: 360px; }
+    .header .logo img { width: 350px; height: 75px; }  
+    .head-section .container .head-right img {  height: 240px; }
+    .about-bottom-container { width: 100vw;}
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 7px;
+    }
+    .header { padding: 0rem; width: 100%; border-radius: 0; }
+    .header .logo { width: 300px; }
+    .header .logo img { width: 280px; height: 75px; }
+    
+  .header-icon { cursor: pointer; width: 40px; }
+    .header-icon .header-icon-hover { width: 40px; }
+    .header .icons {display: flex; flex-direction: row; width: 40px; }
+    .head-section .container .head-right img { height: 230px; }
+  }
+
