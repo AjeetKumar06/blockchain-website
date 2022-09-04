@@ -73,12 +73,13 @@
     .head-section .container .head-right img {  height: 230px; }
     .head-section { height: 500px; }
   }
+
  
   @media (max-width: 576px) { 
     .header .logo { width: 360px; }
     .header .logo img { width: 350px; height: 75px; }  
     .head-section .container .head-right img {  height: 240px; }
-    .about-bottom-container { width: 100vw;}
+    .about-bottom-container { width: 100vw; height: auto; }
   }
   
   @media (max-width: 450px) {
@@ -94,4 +95,5 @@
     .header .icons {display: flex; flex-direction: row; width: 40px; }
     .head-section .container .head-right img { height: 230px; }
   }
+
 
